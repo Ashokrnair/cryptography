@@ -21,7 +21,7 @@ int main()
           y[i]=rand()%10;
            printf("%d",y[i]);
       }
-
+        //finding largest
        i=0;
       one:
           if(x[i]==y[i])
@@ -51,7 +51,7 @@ int main()
       {
          printf("%d",y[i]);
       }
-
+        //substraction
       c=0;
       for(i=(n-1),c=499;i>=0;i--,c--)
       {
@@ -89,6 +89,7 @@ int main()
       {
           x1[j]=x[i];
       }
+      //binary calculation
     printf("\nenter the exponent value");
     scanf("%d",&n1);
     if(n1<4)
@@ -119,7 +120,7 @@ int main()
         printf("%d",binary[i]);
       p=p-1;
       printf("\n taking the bits %d" ,p);
-
+        //calculating exponential
         for(i=(n-1),j=4999;i>=0;i--,j--)
         {
             temp=x[i];
